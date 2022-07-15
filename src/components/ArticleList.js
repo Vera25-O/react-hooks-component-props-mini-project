@@ -5,7 +5,9 @@ import Article from './Article'
 function ArticleList() {
   return (
     <div>
-<Article title={blogData.title} date={blogData.date}/>
+      <main>
+<Article title={blogData.title} date={blogData.date} preview={blogData.posts.preview}/>
+</main>
     </div>
   )
 }
