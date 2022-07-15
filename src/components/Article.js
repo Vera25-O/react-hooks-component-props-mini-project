@@ -12,4 +12,4 @@ function Article(props) {
   )
 }
 
-export default Article
+export default Article;
