@@ -6,7 +6,11 @@ function ArticleList() {
   return (
     <div>
       <main>
-<Article title={blogData.title} date={blogData.date} preview={blogData.posts.preview}/>
+        
+          <Article title={blogData.title}/> 
+        <Article date={blogData.date}/> 
+        <Article preview={blogData.preview}/>
+        
 </main>
     </div>
   )
