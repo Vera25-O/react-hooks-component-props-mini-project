@@ -1,12 +1,14 @@
 import React from 'react'
 import blogData from '../data/blog'
 
-function Header(props) {
+function Header() {
   return (
     <div>
-        <h1>{props.name}</h1>
+        <header>
+          <h1>{blogData.name}</h1>
+          </header>
     </div>
   )
 }
 
-export default Header
+export default Header;

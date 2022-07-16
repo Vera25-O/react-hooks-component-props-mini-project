@@ -5,7 +5,7 @@ function About(props) {
     <div>
         <aside>
 
-        {props.image && props.image.length > 1 ? <img src={props.image}/> : <img src='https://via.placeholder.com/215' alt='blog logo'/>}
+        {props.image && props.image.length > 1 ? <img src={props.image} alt='blog logo'/> : <img src='https://via.placeholder.com/215' alt='blog logo'/>}
         
             <p>{props.about}</p>
         </aside>
@@ -13,4 +13,4 @@ function About(props) {
   )
 }
 
-export default About
+export default About;
